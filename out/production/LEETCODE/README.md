@@ -64,14 +64,6 @@ Problems from Leetcode.
 |               |                                            |                              |                                     |
 
 
-### Union Find
-
-| Problems Number| Name                       | Context                                     | Link        |
-| ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 200            | Number of Islands          |[<u>dfs<u>](), [<u>bfs<u>](), [<u>UnionFind<u>]()   |   Medium |
-|                |                                            |                              |                                     |
-
-
 
 ## Weekly Contest
 
