@@ -3,28 +3,36 @@ package Other.UnionFind;
 /*
 leetcode 200: https://leetcode.com/problems/number-of-islands/
 - clarification:
-  grid == null: []
-  grid[0] == null : [[]]
+  grid == null, grid == [], grid ==[[]]
 - solutions:
   1.Flood fill
     · DFS
     Create a extra matrix to mark the node we have visited.Traverse the grid one by one.
     When we meet the '1' that we didn't visit before, we add one to the count,mark the node visited,
     search its neighbor by DFS and mark every node visited.
+    Time complexity: O(n*m)
+    Space complexity: O(n*m)
     · BFS
     Much the same with the DFS,except that we search its neighbor by BFS.
+    Time complexity: O(n*m)
+    Space complexity: O(n*m)
   2.Union-Find
     Traverse the grid one by one. When we meet '1', union the node with its neighbors
     and count the number of the roots that generated during the process.
+    Time complexity: O(nm * α(mn)), α(mn)is the time complexity of a single Union operation.
+    Space complexity: O(n*m)
 - Test cases:
-  1. grid = {}
-  2. grid = {{}}
-  3. grid = {{'1','1','0','0','1'},
-             {'1','1','1','1','1'},
+  1. grid = null
+  2. grid = {}
+  3. grid = {{}}
+  4. grid = {{'0','0','1','0','1'},
+             {'0','1','1','1','0'},
              {'1','0','1','0','0'},
              {'0','0','1','0','1'}}
 - Important key:
+  Know the main object. -- Land coordinates.
   Mark the subset and count the number.
+  Use DFS or BFS to search or union the objects based on the relation matrix Grid[][].
 - Related problems:
   463,695,827
  */
@@ -32,7 +40,7 @@ leetcode 200: https://leetcode.com/problems/number-of-islands/
 public class lc200UnionFind {
 
     public int numIslands(char[][] grid) {
-        if(grid.length == 0 || grid[0].length == 0) return 0;
+        if(grid == null || grid.length == 0 || grid[0].length == 0) return 0;
         int n = grid.length;
         int m = grid[0].length;
         // We only have to visit the neighbor that is below it and on the right which is different from the bfs and dfs.
