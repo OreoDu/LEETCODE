@@ -1,41 +1,41 @@
 package Other.UnionFind;
 
-/*
-leetcode 547: https://leetcode.com/problems/friend-circles/
-- Clarification:
-  M = null, M = [], M = [[]]
-- Solutions:
-  1. Union Find
-     Traverse the matrix one by one. When we meet 1 and col!=row, we union the two nodes(col and row)
-     and count the number of the roots that generated during the process.
-     Time complexity: O(n^2 * α(n)), α(n)is the time complexity of a single Union operation.
-     Space complexity: O(n) -- root
-  2. Graph traversal -- Get the number of the connected blocks
-    · DFS
-     Time complexity: O(n^2) -- We have to traverse the whole matrix.
-     Space complexity: O(n) -- array visited[]
-    · BFS
-     Time complexity: O(n^2) -- traverse the whole matrix.
-     Space complexity: O(n) -- queue and array visited[]
-
-- Test case:
-  1. M = null
-  2. M = {}
-  3. M = {{}}
-  4. M = {{1,0,0,0},
-          {0,1,0,0},
-          {0,0,1,0},
-          {0,0,0,1}};
-  5. M = {{1,1,0,0},
-          {1,1,0,0},
-          {0,0,1,1},
-          {0,0,1,1}};
-- Important Key:
-  Know the main object. -- The people in the friend circle.
-  Mark the subset and count the number.
-  Use DFS or BFS to search or union the objects based on the relation matrix M[][].
-- Related problems
-  323, 1101,
+/**
+ * leetcode 547: https://leetcode.com/problems/friend-circles/
+ * - Clarification:
+ *   M = null, M = [], M = [[]]
+ * - Solutions:
+ *   1. Union Find
+ *      Traverse the matrix one by one. When we meet 1 and col!=row, we union the two nodes(col and row)
+ *      and count the number of the roots that generated during the process.
+ *      Time complexity: O(n^2 * α(n)), α(n)is the time complexity of a single Union operation.
+ *      Space complexity: O(n) -- root
+ *   2. Graph traversal -- Get the number of the connected blocks
+ *     · DFS
+ *      Time complexity: O(n^2) -- We have to traverse the whole matrix.
+ *      Space complexity: O(n) -- array visited[]
+ *     · BFS
+ *      Time complexity: O(n^2) -- traverse the whole matrix.
+ *      Space complexity: O(n) -- queue and array visited[]
+ *
+ * - Test case:
+ *   1. M = null
+ *   2. M = {}
+ *   3. M = {{}}
+ *   4. M = {{1,0,0,0},
+ *           {0,1,0,0},
+ *           {0,0,1,0},
+ *           {0,0,0,1}};
+ *   5. M = {{1,1,0,0},
+ *           {1,1,0,0},
+ *           {0,0,1,1},
+ *           {0,0,1,1}};
+ * - Important Key:
+ *   Know the main object. -- The people in the friend circle.
+ *   Mark the subset and count the number.
+ *   Use DFS or BFS to search or union the objects based on the relation matrix M[][].
+ * - Related problems
+ *   323, 1101,
  */
 
 public class lc547UnionFind {
