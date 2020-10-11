@@ -18,7 +18,7 @@ Problems from Leetcode.
 | Problems Number| Name                       | Context                                     | Link        |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 002            | Add Two Numbers            |                                             | [Medium](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_002.py)    |
-
+| 206  | Reverse Linked List  | [Recursive](), [Iterative]() | Easy  |
   
 ## Search
 
