@@ -18,21 +18,21 @@
  *   3. 1->2->3->9->null
  *
  * - Important key:
- *   Find a proper way(recursion or iteration) to change the pointer.
+ *   Find a proper way(recursive or iterative) to change the pointer.
  *
  * - Related problems:
- *   92
+ *   92, 24, 141, 142, 25
  */
 
 public class lc206ReLList1 {
-    public class ListNode {
+    private class ListNode {
       int val;
       ListNode next;
       ListNode() {}
       ListNode(int val) { this.val = val; }
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
-/** Solution 1:
+/* Solution 1:
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {return head;}
         ListNode first = new ListNode(head.val);
@@ -46,7 +46,7 @@ public class lc206ReLList1 {
     }
 */
 
-/** Solution 2:
+/* Solution 2: Using two pointers cur,pre.
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {return head;}
         ListNode cur = head;
@@ -61,7 +61,7 @@ public class lc206ReLList1 {
     }
 */
 
-/** Solution 3: deal the node during the recursion.
+/* Solution 3: deal the node during the recursion.
     public ListNode reverse(ListNode pre, ListNode cur) {
         if (cur == null) return pre;
 
@@ -77,7 +77,7 @@ public class lc206ReLList1 {
     }
 */
 
-/** Solution 3: deal with the node after drilling down.
+/* Solution 3: deal with the node after drilling down.
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
            return head;

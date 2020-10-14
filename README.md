@@ -18,8 +18,12 @@ Problems from Leetcode.
 | Problems Number| Name                       | Context                                     | Link        |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 002            | Add Two Numbers            |                                             | [Medium](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_002.py)    |
-| 206  | Reverse Linked List  | [Recursive](), [Iterative]() | Easy  |
-  
+| 206  | Reverse Linked List  | [Recursive](), [Iterative](), Two pointers | Easy  |
+| 092  | Reverse Linked List Ⅱ | [Recursive](), [Iterative](), Two pointers| Medium  |
+| 024  | Swap Nodes in Pairs  | [Recursive](), [Iterative](),Two pointers| Medium  |
+| 142  | Linked List Cycle  | [HashSet](), [Floyd Cycle Dectctipn](), Two pointers | Medium  |
+
+
 ## Search
 
 | Problems Number| Name                       | Context                                     | Link        |
