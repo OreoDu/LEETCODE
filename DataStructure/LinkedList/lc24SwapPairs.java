@@ -10,9 +10,11 @@
  *      Space complexity: O(1)
  *
  *   2. change the links between the nodes during the recursion,
- *      and everytime the second node is the head of the reversed pair.
+ *      everytime the second node is the head of the reversed pair which should returned to the upper level of the recursion,
+ *      and the first node is the tail of the the reversed pair.
+ *      After we get the return value from the lower level, we should link the tail to it.
  *      Time complexity: O(n)
- *      Space complexity: O(n)
+ *      Space complexity: O(n) occupied by the recursion stack.
 
  * - Test cases:
  *   1. null

@@ -6,7 +6,7 @@ Problems from Leetcode.
 
 ### Hash Map
 
-| Problems Number| Name                       | Context                                     | Link        |
+| Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 001            | Two Sum                    |                                             | [Easy](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_001.py)    |
 
@@ -15,18 +15,26 @@ Problems from Leetcode.
 
 ### Linked list
 
-| Problems Number| Name                       | Context                                     | Link        |
+| Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 002            | Add Two Numbers            |                                             | [Medium](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_002.py)    |
+| 002            | Add Two Numbers            | | [Medium](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_002.py)    |
 | 206  | Reverse Linked List  | [Recursive](), [Iterative](), Two pointers | Easy  |
 | 092  | Reverse Linked List Ⅱ | [Recursive](), [Iterative](), Two pointers| Medium  |
 | 024  | Swap Nodes in Pairs  | [Recursive](), [Iterative](),Two pointers| Medium  |
+| 025  | Reverse Nodes in k-Group  | [Recursive](), [Iterative](),Two pointers| Hard  |
 | 142  | Linked List Cycle  | [HashSet](), [Floyd Cycle Dectctipn](), Two pointers | Medium  |
+
+### Stack
+| Problems Number| Name                       | Context                                     |       |
+| ---------------| -------------------------- | ------------------------------------------- | ----------- |
+| 020  | Valid Parentheses  | [Stack]()       | Easy  |
+| 232  | Implement Queue using Stacks  | [Stack]()       | Easy  |
+| 225  | Implement Stack using Queues  | [Queue]()       | Easy  |
 
 
 ## Search
 
-| Problems Number| Name                       | Context                                     | Link        |
+| Problems Number| Name                       | Context                                     |        |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 004            | Median of two sorted arrays| Binary search in two arrays  | [Hard](https://github.com/OreoDu/LEETCODE/blob/master/Search/lc_004.py)    |
 | 029            | Divide Two Integers        |                              |                                |
@@ -53,7 +61,7 @@ Problems from Leetcode.
 
 ### Two Pointers
 
-| Problems Number| Name                       | Context                                     | Link        |
+| Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 167            | Two Sum Ⅱ                 |                              |                                     |
 |                |                            |                              |                                     |
@@ -62,7 +70,7 @@ Problems from Leetcode.
 
 ### Sliding window
 
-| Problems Number| Name                       | Context                                     | Link        |
+| Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 003           | Longest substring without repeating        |                              |   [Medium](https://github.com/OreoDu/LEETCODE/blob/master/Other/SlidingWindow/lc_003.py)                                  |
 |               |                                            |                              |                                     |
@@ -70,7 +78,7 @@ Problems from Leetcode.
 
 ### Union Find
 
-| Problems Number| Name                       | Context                                     | Link        |
+| Problems Number| Name                       | Context                                     |       |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 200            | Number of Islands          |[<u>DFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200dfs.java), [<u>BFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200bfs.java), [<u>UnionFind<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200UnionFind.java)   |   Medium |
 | 547            | Friend Circles            | [<u>DFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547dfs.java), [<u>BFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547bfs.java), [<u>UnionFind<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547UnionFind.java)   |  Medium |
@@ -80,7 +88,7 @@ Problems from Leetcode.
 
 ## Weekly Contest
 
-| Problems Number| Name                       | Context                                     | Link        |
+| Problems Number| Name                       | Context                                     |       |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 185-1          |                    |                              |                                     |
 | 185-2          |                    |                              |                                     |

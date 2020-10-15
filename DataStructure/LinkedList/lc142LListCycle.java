@@ -7,8 +7,8 @@ import java.util.Set;
  *   The list is empty or just have one element.
  *
  * - solutions:
- *   1. Store the nodes that we have already visited in a set.
- *      Once we found one node that is in the set,
+ *   1. Store the nodes that we have visited in a set.
+ *      Once we found one node that is already in the set,
  *      it means that cycle exists in list and that position is the entrance of the cycle.
  *      Time complexity: O(n). We have to traverse the whole lists.
  *      Space complexity: O(n). we have to add all the elements to the set in the worst case.
@@ -17,9 +17,7 @@ import java.util.Set;
  *      Use two pointers(fast and slow) that move different steps during the iteration,
  *      and after a few steps if two pointers meet it means that the cycle exists.
  *      Related proof:
- *      https://math.stackexchange.com/questions/913499/proof-of-floyd-cycle-chasing-tortoise-and-hare
- *      https://hongyangyu.github.io/algorithm/2017/09/04/Fast-Pointer-and-Slow-Pointer/
- *      https://zhuanlan.zhihu.com/p/60736361
+ *
  *
  *      Suppose that slow pointer starts at head and move one step everytime.
  *      The fast pointer starts at head.next and move two steps everytime.

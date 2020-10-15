@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Other/SlidingWindow" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Other/UnionFind" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WeeklyContest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DataStructure/Stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Search" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
