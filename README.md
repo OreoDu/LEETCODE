@@ -4,11 +4,17 @@ Problems from Leetcode.
 
 ## Data Structure
 
-### Hash Map
+### Map
 
 | Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 001            | Two Sum                    |                                             | [Easy](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_001.py)    |
+| 350           | Intersection of Two Arrays Ⅱ | [Set](), Two Pointers | Easy    |
+
+### Set
+| Problems Number| Name                       | Context                                     |         |
+| ---------------| -------------------------- | ------------------------------------------- | ----------- |
+| 349            | Intersection of Two Arrays | [Set](), Two Pointers, Binary Search | Easy    |
 
 
 
@@ -30,7 +36,8 @@ Problems from Leetcode.
 | 020  | Valid Parentheses  | [Stack]()       | Easy  |
 | 232  | Implement Queue using Stacks  | [Stack]()       | Easy  |
 | 225  | Implement Stack using Queues  | [Queue]()       | Easy  |
-
+| 155  | Min Stack  | [Stack]()       | Easy  |
+| 716  | Max Stack  | [Stack]()       | Easy  |
 
 ## Search
 
@@ -82,7 +89,7 @@ Problems from Leetcode.
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 200            | Number of Islands          |[<u>DFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200dfs.java), [<u>BFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200bfs.java), [<u>UnionFind<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200UnionFind.java)   |   Medium |
 | 547            | Friend Circles            | [<u>DFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547dfs.java), [<u>BFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547bfs.java), [<u>UnionFind<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547UnionFind.java)   |  Medium |
-|    a            |          |          |        |
+|                |          |          |        |
 
 
 

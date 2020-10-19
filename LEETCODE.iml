@@ -12,6 +12,9 @@
       <sourceFolder url="file://$MODULE_DIR$/WeeklyContest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataStructure/Stack" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DataStructure/Map" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DataStructure/Set" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
