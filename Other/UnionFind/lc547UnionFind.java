@@ -1,5 +1,3 @@
-package Other.UnionFind;
-
 /**
  * leetcode 547: https://leetcode.com/problems/friend-circles/
  * - Clarification:

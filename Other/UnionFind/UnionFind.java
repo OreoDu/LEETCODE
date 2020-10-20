@@ -1,5 +1,3 @@
-package Other.UnionFind;
-
 public class UnionFind {
     private int[] roots;
     private int[] size;
