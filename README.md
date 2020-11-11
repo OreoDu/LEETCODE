@@ -9,12 +9,12 @@ Problems from Leetcode.
 | Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 001            | Two Sum                    |                                             | [Easy](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_001.py)    |
-| 350           | Intersection of Two Arrays Ⅱ | [Set](), Two Pointers | Easy    |
+| 350           | Intersection of Two Arrays Ⅱ | [Set](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Map/lc350IntersectionOfArrays2.java), Two Pointers | Easy    |
 
 ### Set
 | Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 349            | Intersection of Two Arrays | [Set](), Two Pointers, Binary Search | Easy    |
+| 349            | Intersection of Two Arrays | [Set](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Set/lc349IntersectionOfArrays1.java), Two Pointers, Binary Search | Easy    |
 
 
 
@@ -24,20 +24,20 @@ Problems from Leetcode.
 | Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 002            | Add Two Numbers            | | [Medium](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_002.py)    |
-| 206  | Reverse Linked List  | [Recursive](), [Iterative](), Two pointers | Easy  |
-| 092  | Reverse Linked List Ⅱ | [Recursive](), [Iterative](), Two pointers| Medium  |
-| 024  | Swap Nodes in Pairs  | [Recursive](), [Iterative](),Two pointers| Medium  |
-| 025  | Reverse Nodes in k-Group  | [Recursive](), [Iterative](),Two pointers| Hard  |
-| 142  | Linked List Cycle  | [HashSet](), [Floyd Cycle Dectctipn](), Two pointers | Medium  |
+| 206  | Reverse Linked List  | [Recursive](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/LinkedList/lc206ReLList1.java), Iterative, Two pointers | Easy  |
+| 092  | Reverse Linked List Ⅱ | [Recursive](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/LinkedList/lc92ReLList2.java), Iterative, Two pointers| Medium  |
+| 024  | Swap Nodes in Pairs  | [Recursive](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/LinkedList/lc24SwapPairs.java), Iterative,Two pointers| Medium  |
+| 025  | Reverse Nodes in k-Group  | [Recursive](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/LinkedList/lc25ReKGroup.java), Iterative,Two pointers| Hard  |
+| 142  | Linked List Cycle  | [HashSet](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/LinkedList/lc142LListCycle.java), Floyd Cycle Dectctipn, Two pointers | Medium  |
 
 ### Stack
 | Problems Number| Name                       | Context                                     |       |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 020  | Valid Parentheses  | [Stack]()       | Easy  |
-| 232  | Implement Queue using Stacks  | [Stack]()       | Easy  |
-| 225  | Implement Stack using Queues  | [Queue]()       | Easy  |
-| 155  | Min Stack  | [Stack]()       | Easy  |
-| 716  | Max Stack  | [Stack]()       | Easy  |
+| 020  | Valid Parentheses  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc20ValidParentheses.java)       | Easy  |
+| 232  | Implement Queue using Stacks  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc232ImQueuewithStacks.java)       | Easy  |
+| 225  | Implement Stack using Queues  | [Queue](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc225ImStackwithQueue.java)       | Easy  |
+| 155  | Min Stack  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc155MinStack.java)       | Easy  |
+| 716  | Max Stack  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc716MaxStack.java)       | Easy  |
 
 ## Search
 
@@ -87,8 +87,8 @@ Problems from Leetcode.
 
 | Problems Number| Name                       | Context                                     |       |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 200            | Number of Islands          |[<u>DFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200dfs.java), [<u>BFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200bfs.java), [<u>UnionFind<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200UnionFind.java)   |   Medium |
-| 547            | Friend Circles            | [<u>DFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547dfs.java), [<u>BFS<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547bfs.java), [<u>UnionFind<u>](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547UnionFind.java)   |  Medium |
+| 200            | Number of Islands          |[DFS](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200dfs.java), [BFS](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200bfs.java), [UnionFind](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200UnionFind.java)   |   Medium |
+| 547            | Friend Circles            | [DFS](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547dfs.java), [BFS](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547bfs.java), [UnionFind](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547UnionFind.java)   |  Medium |
 |                |          |          |        |
 
 

@@ -100,7 +100,7 @@ public class lc92ReLList2 {
         con = pre;
         tail = cur;
 
-        ListNode temp = null;
+        ListNode temp;
         while (n > 0) {
             temp = cur.next;
             cur.next = pre;
