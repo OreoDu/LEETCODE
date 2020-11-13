@@ -10,7 +10,7 @@ Problems from Leetcode.
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 001            | Two Sum                    |                                             | [Easy](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_001.py)    |
 | 350           | Intersection of Two Arrays Ⅱ | [Set](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Map/lc350IntersectionOfArrays2.java), Two Pointers | Easy    |
-
+| 015           | Three Sum                   |  Set, Map, [Two Pointers]()|  Medium |
 ### Set
 | Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
