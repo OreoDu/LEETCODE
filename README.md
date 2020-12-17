@@ -58,6 +58,14 @@ Problems from Leetcode.
 
 ## Backtracking
 
+
+| Problems Number| Name                       | Context                                     |      |
+| ---------------| -------------------------- | ------------------------------------------- | ----------- |
+| 357           | Count Numbers with Unique Digits |[Backtracking](https://github.com/OreoDu/LEETCODE/blob/master/BackTracking/lc357CountNumbersWithUniqueDigits.java), Dynamic program | Medium    |
+|                |                            |                              |                                     |
+
+
+
 ## Dynamic Programing
 
 ## Graph
