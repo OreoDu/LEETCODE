@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Sort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataStructure/Map" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataStructure/Set" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BackTracking" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

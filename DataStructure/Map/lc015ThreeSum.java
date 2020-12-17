@@ -34,7 +34,7 @@ import java.util.*;
  *   Use hash or two pointers(both sorted) or binary search(one sorted) to speed up the search process.
  *
  * - Related problems:
- *   1,
+ *   1, 259, 16, 18
  */
 public class lc015ThreeSum {
 /* Solution 1: Out of tim， Because the sort spend two much time.
@@ -155,6 +155,7 @@ public class lc015ThreeSum {
                         tail--;
                     }
                 }
+                // if they are equal, just change the tail.
                 if (sum <= nums[i]) {
                     tail--;
                 } else {
