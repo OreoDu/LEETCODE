@@ -53,6 +53,11 @@ Problems from Leetcode.
 ## Greedy Algorithm
 
 ## Divide and Conquer
+| Problems Number| Name                       | Context                                     |      |
+| ---------------| -------------------------- | ------------------------------------------- | ----------- |
+| 23           | Merge k Sorted Lists |[Divide and Conquer]() | Hard    |
+|                |                            |                              |                   
+
 
 ## Recursion
 
