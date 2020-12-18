@@ -55,7 +55,7 @@ Problems from Leetcode.
 ## Divide and Conquer
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 23           | Merge k Sorted Lists |[Divide and Conquer]() | Hard    |
+| 23           | Merge k Sorted Lists |[Divide and Conquer](https://github.com/OreoDu/LEETCODE/blob/master/Divide%20and%20Conquer/lc23MergeKSortedLists.java), Priority Queue | Hard    |
 |                |                            |                              |                   
 
 

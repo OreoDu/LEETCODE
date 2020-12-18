@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
  * - clarification:
  *  lists = null
  *  lists = [null,]
- *  lists = [[1,2,3]]
+ *  lists = [[1->2->3]]
  *
  * - solutions:
  *   1. Divide and Conquer
@@ -25,20 +25,21 @@ import java.util.PriorityQueue;
  *      Because the lists are all sorted, so we just have to compare the values of the first nodes among these lists.
  *      The priority queue is a efficient data structure to keep recording the max/min of certain data set.
  *      So we can store the k nodes(the first node of every list) into the priority queue.
- *      Time complexity:
- *      Space complexity:
+ *      Time complexity: (nk logk)
+ *      Space complexity: O(k)
 
  * - Test cases:
  *   1. []       >>> []
- *   2. [[]]     >>> []
- *   3. [[],[3],[3->4->5]]
- *   4. [[2->4->7],[3->4->5->7],[1->6->9],[],[1->4->10],[3->6->8]]
+ *   2. [null,]     >>> []
+ *   3. [null,[1],[3->4->5]]
+ *   4. [[2->4->7],[3->4->5->7],[1->6->9],null,[1->4->10],[3->6->8]]
  *
  * - Important key:
  *   Use O(1) space complexity to merge two ordered linkedList.
+ *   If we want to continuously get the min/max from a data set, use priority queue!
  *
  * - Related problems:
- *
+ *   21, 264
  */
 
 
