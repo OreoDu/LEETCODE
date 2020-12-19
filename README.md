@@ -38,6 +38,10 @@ Problems from Leetcode.
 | 225  | Implement Stack using Queues  | [Queue](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc225ImStackwithQueue.java)       | Easy  |
 | 155  | Min Stack  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc155MinStack.java)       | Easy  |
 | 716  | Max Stack  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc716MaxStack.java)       | Easy  |
+| 739  | Daily Temperature | [Stack]()  |       Medium          |
+|     |                    |        |        |            
+
+
 
 ## Search
 
