@@ -1,6 +1,7 @@
 # LEETCODE
 
 Problems from Leetcode.
+You can find some details about algorithms and data structure [here](https://oreodu.github.io/).
 
 ## Data Structure
 
@@ -11,13 +12,22 @@ Problems from Leetcode.
 | 001            | Two Sum                    |                                             | [Easy](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_001.py)    |
 | 350           | Intersection of Two Arrays Ⅱ | [Set](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Map/lc350IntersectionOfArrays2.java), Two Pointers | Easy    |
 | 015           | Three Sum                   |  Set, Map, [Two Pointers]()|  Medium |
+
 ### Set
 | Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 349            | Intersection of Two Arrays | [Set](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Set/lc349IntersectionOfArrays1.java), Two Pointers, Binary Search | Easy    |
 
+### Heap
+**Conditions of Use**
+- Find the max/min
+- Top k (nlogk)
+- Data operation with O(logn) time complexity.
 
-
+**Conditions that cannot use**
+- the ceiling or floor of certain value(-> balanced BST).
+- Find the maximum and minimum values of a certain interval. (->segment tree)
+- Top k with time complexity.(-> quick sort)
 
 ### Linked list
 
@@ -38,23 +48,64 @@ Problems from Leetcode.
 | 225  | Implement Stack using Queues  | [Queue](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc225ImStackwithQueue.java)       | Easy  |
 | 155  | Min Stack  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc155MinStack.java)       | Easy  |
 | 716  | Max Stack  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc716MaxStack.java)       | Easy  |
-| 739  | Daily Temperature | [Stack]()  |       Medium          |
+| 739  | Daily Temperature | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc739DailyTemperature.java)  |       Medium          |
+|     |                    |        |        |            
+
+### Hash Table
+| Problems Number| Name                       | Context                                     |         |
+| ---------------| -------------------------- | ------------------------------------------- | ----------- |
+|  3           | Longest Substring Without Repeating Characters  | [HashMap](), Array  |  Medium   |
 |     |                    |        |        |            
 
 
 
+### Trie
+
+| Problems Number    | Name                       | Context          |        |
+| ----| ------------------ | ----------------------- | ----------- |
+| 208 | Implement Trie (Prefix Tree)   |   [Trie]()      | Medium  |
+|  212  |  Word Search    |           [Trie]()                    |       Hard     |
+|  421  |   Maximum XOR of Two Numbers in a Array     |   [Trie]()        |   Medium        |
+|    |        |                              |                                |
+
+
+
 ## Search
+### Binary Search
+**Conditions of Use**
+- In an ordered array.
+- When you are asked to find an algorithm that has time complexity smaller than O(n).
+- When you have to find the split position in the array that the left part meets a certain condition, and the right part does not.
+- When you have to find a max/min to meet certain condition.
 
 | Problems Number| Name                       | Context                                     |        |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 004            | Median of two sorted arrays| Binary search in two arrays  | [Hard](https://github.com/OreoDu/LEETCODE/blob/master/Search/lc_004.py)    |
 | 029            | Divide Two Integers        |                              |                                |
+|     |                    |        |        |            
 
 
+### BFS
+**Conditions of Use**
+- Topological sort
+- Connected block
+- Hierarchical traversal
+- The shortest path of a simple graph
+- Given a transformation rule, at least how many steps should be taken from the initial state to the final state?
+
+### DFS
+**Conditions of Use**
+- Find all the solutions that meet the condition.
+- Binary Tree
+- Combination problem: all the combinations that meet the conditions. (The order of the elements is irrelevant.)
+- Permutation problem: all the permutations that meet the conditions. (The order of the elements is relevant.)
 
 ## Sort
 
+
 ## Greedy Algorithm
+
+
 
 ## Divide and Conquer
 | Problems Number| Name                       | Context                                     |      |
@@ -65,8 +116,9 @@ Problems from Leetcode.
 
 ## Recursion
 
-## Backtracking
 
+
+## Backtracking
 
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
@@ -76,10 +128,34 @@ Problems from Leetcode.
 
 
 ## Dynamic Programing
+**Important keys for DP:**
+- definition of the different states
+- initial condition
+- recurrence recurrence formula
+- final results
+- space optimize
+
+| Problems Number| Name                       | Context                                     |      |
+| ---------------| -------------------------- | ------------------------------------------- | ----------- |
+|   121 |  Best Time to Buy and Sell Stock |[Dynamic Programing]( ), Two Pointers |  Easy    |
+|   122 |  Best Time to Buy and Sell Stock II    | [Dynamic Programing]( ), Greedy algorithm, DFS |   Easy     |
+|   123 |  Best Time to Buy and Sell Stock III  | [Dynamic Programing]( ), DFS       |  Hard |
+|   309 |  Best Time to Buy and Sell Stock with Cool Down |  [Dynamic Programing]( )        |          Medium         |
+|   188 | Best Time to Buy and Sell Stock IV |   [Dynamic Programing]( )    |    Hard           |
+|   714 | Best Time to Buy and Sell Stock with Transaction Fee |  [Dynamic Programing]( )        |  Medium   |
+|     |                            |                              |                                     |
+
+
+
 
 ## Graph
 
 ## String
+
+### Trie
+**Conditions of Use**
+- Whether a string containing a certain prefix exists.
+- Find words in character matrix
 
 ## Other
 
@@ -96,11 +172,14 @@ Problems from Leetcode.
 
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 003           | Longest substring without repeating        |                              |   [Medium](https://github.com/OreoDu/LEETCODE/blob/master/Other/SlidingWindow/lc_003.py)                                  |
+| 003           | Longest substring without repeating        |[Sliding Window](https://github.com/OreoDu/LEETCODE/blob/master/Other/SlidingWindow/lc_003.py), Hash                            |   Medium                                 |
 |               |                                            |                              |                                     |
 
 
 ### Union Find
+**Conditions of Use**
+- Check the connection status of the graph.
+- Quickly merge two sets.
 
 | Problems Number| Name                       | Context                                     |       |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
