@@ -11,8 +11,8 @@ You can find some details about algorithms and data structure [here](https://ore
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 001            | Two Sum                    |                                             | [Easy](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_001.py)    |
 | 350           | Intersection of Two Arrays Ⅱ | [Set](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Map/lc350IntersectionOfArrays2.java), Two Pointers | Easy    |
-| 015           | Three Sum                   |  Set, Map, [Two Pointers]()|  Medium |
-|  3           | Longest Substring Without Repeating Characters  | [HashMap](), Array, Two Pointers  |  Medium   |
+| 015           | Three Sum                   |  Set, Map, [Two Pointers](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Map/lc015ThreeSum.java)|  Medium |
+|  3           | Longest Substring Without Repeating Characters  | [HashMap](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Map/lc3LongestSubstringWithoutRepeatingCharacters.java), Array, Two Pointers  |  Medium   |
 |     |                    |        |        |            
 
 
@@ -20,6 +20,8 @@ You can find some details about algorithms and data structure [here](https://ore
 | Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 349            | Intersection of Two Arrays | [Set](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Set/lc349IntersectionOfArrays1.java), Two Pointers, Binary Search | Easy    |
+|     |                    |        |        |            
+
 
 ### Heap
 **Conditions of Use**
@@ -52,8 +54,8 @@ You can find some details about algorithms and data structure [here](https://ore
 | 155  | Min Stack  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc155MinStack.java)       | Easy  |
 | 716  | Max Stack  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc716MaxStack.java)       | Easy  |
 | 739  | Daily Temperature | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc739DailyTemperature.java)  |       Medium          |
-|  85   |  Maximal Rectangle     |  [Monotone Stack]()      |  Hard  |            
-| 84 |  Largest Rectangle in Histogram  |  [Monotone Stack]()  |  Hard   |            
+|  85   |  Maximal Rectangle     |  [Monotone Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc85MaximalRectangle.java)      |  Hard  |            
+| 84 |  Largest Rectangle in Histogram  |  [Monotone Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc84LargestRectangleInHistogram.java)  |  Hard   |            
 |     |                    |        |        |            
 |     |                    |        |        |            
 
@@ -71,9 +73,9 @@ You can find some details about algorithms and data structure [here](https://ore
 
 | Problems Number    | Name                       | Context          |        |
 | ----| ------------------ | ----------------------- | ----------- |
-| 208 | Implement Trie (Prefix Tree)   |   [Trie]()      | Medium  |
-|  212  |  Word Search    |           [Trie](), BackTracking, DFS    |       Hard     |
-|  421  |   Maximum XOR of Two Numbers in a Array     |   [Trie](), HashSet   |   Medium        |
+| 208 | Implement Trie (Prefix Tree)   |   [Trie](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Trie/Trie.java)      | Medium  |
+|  212  |  Word Search    |           [Trie](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Trie/lc212WordSearch2.java), BackTracking, DFS    |       Hard     |
+|  421  |   Maximum XOR of Two Numbers in a Array     |   [Trie](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Trie/lc421MaximumXOROfTwoNumbersInAnArray.java), HashSet   |   Medium        |
 |    |        |                              |                                |
 
 
@@ -90,7 +92,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 004            | Median of two sorted arrays| Binary search in two arrays  | [Hard](https://github.com/OreoDu/LEETCODE/blob/master/Search/lc_004.py)    |
 | 029            | Divide Two Integers        |                              |                                |
-|  pramp         | Shifted Array Search       |  [Binary search]()        |        |            
+|  pramp         | Shifted Array Search       |  [Binary search](https://github.com/OreoDu/LEETCODE/blob/master/Search/BinarySearch/prampShiftedArraySearch.java)        |        |            
 |                |                            |                              |                   
 |                |                            |                              |                   
 
@@ -105,7 +107,7 @@ You can find some details about algorithms and data structure [here](https://ore
 
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 102     | Binary Tree Level Order Traversal |[BFS](), DFS                  | Medium   |
+| 102     | Binary Tree Level Order Traversal |[BFS](https://github.com/OreoDu/LEETCODE/blob/master/Search/BFS/lc102BinaryTreeLevelOrderTraversal.java), DFS                  | Medium   |
 |                |                            |                              |                   
 
 
@@ -140,7 +142,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 357           | Count Numbers with Unique Digits |[Backtracking](https://github.com/OreoDu/LEETCODE/blob/master/BackTracking/lc357CountNumbersWithUniqueDigits.java), Dynamic program | Medium    |
-|  22    | Generate Parentheses   |      [Backtracking]() / DFS, BFS, Recursion + Memorize / Dynamic programing  |        Medium   |
+|  22    | Generate Parentheses   |      [Backtracking](https://github.com/OreoDu/LEETCODE/blob/master/BackTracking/lc22GenerateParentheses.java) / DFS, BFS, Recursion + Memorize / Dynamic programing  |        Medium   |
 |                |                            |                              |                                     |
 |                |                            |                              |                                     |
 |                |                            |                              |                                     |
@@ -158,13 +160,13 @@ You can find some details about algorithms and data structure [here](https://ore
 
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-|   121 |  Best Time to Buy and Sell Stock |[Dynamic Programing]( ), Two Pointers |  Easy    |
-|   122 |  Best Time to Buy and Sell Stock II    | [Dynamic Programing]( ), Greedy algorithm, DFS |   Easy     |
-|   123 |  Best Time to Buy and Sell Stock III  | [Dynamic Programing]( ), DFS       |  Hard |
-|   309 |  Best Time to Buy and Sell Stock with Cool Down |  [Dynamic Programing]( )        |          Medium         |
-|   188 | Best Time to Buy and Sell Stock IV |   [Dynamic Programing]( )    |    Hard           |
-|   714 | Best Time to Buy and Sell Stock with Transaction Fee |  [Dynamic Programing]( )        |  Medium   |
-|   120 |      Triangle             | [Dynamic Programing]( ) |        Medium      |
+|   121 |  Best Time to Buy and Sell Stock |[Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc121BestTimeToBuyAndSellStock.java), Two Pointers |  Easy    |
+|   122 |  Best Time to Buy and Sell Stock II    | [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc122BestTimeToBuyAndSellStock2.java), Greedy algorithm, DFS |   Easy     |
+|   123 |  Best Time to Buy and Sell Stock III  | [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc123BestTimeToBuyAndSellStock3.java), DFS       |  Hard |
+|   309 |  Best Time to Buy and Sell Stock with Cool Down |  [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc309BestTimeToBuyAndSellStockWithCoolDown.java)        |          Medium         |
+|   188 | Best Time to Buy and Sell Stock IV |   [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc188BestTimeToBuyAndSellStock4.java)    |    Hard           |
+|   714 | Best Time to Buy and Sell Stock with Transaction Fee |  [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc714BestTimeToBuyAndSellStockWithTransactionFee.java)        |  Medium   |
+|   120 |      Triangle             | [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc120Triangle.java) |        Medium      |
 |     |                            |                              |                                     |
 |     |                            |                              |                                     |
 |     |                            |                              |                                     |
@@ -178,7 +180,7 @@ You can find some details about algorithms and data structure [here](https://ore
 
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 6              | ZigZag Conversion   |   [Index pattern]()    |  Medium       |
+| 6              | ZigZag Conversion   |   [Index pattern](https://github.com/OreoDu/LEETCODE/blob/master/String/lc6ZigZagConversion.java)    |  Medium       |
 |                |                            |                              |                                     |
 
 
@@ -196,10 +198,12 @@ You can find some details about algorithms and data structure [here](https://ore
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 167            | Two Sum Ⅱ                 |                              |                                     |
-| 42        |  Trapping Rain Water      | [Two Pointers](), Monotone Stack, dynamic programing    |        Hard             |
-| pramp      |    Smallest Substring Of All Characters      |  [Two Pointers](), map  |                                     |
-| 1695       |    Maximum Erasure Value  |      [Two Pointers](), map     |                                     |
+| 42        |  Trapping Rain Water      | [Two Pointers](https://github.com/OreoDu/LEETCODE/blob/master/Other/TwoPointers/lc42TrappingRainWater.java), Monotone Stack, dynamic programing    |        Hard             |
+| pramp      |    Smallest Substring Of All Characters      |  [Two Pointers](https://github.com/OreoDu/LEETCODE/blob/master/Other/TwoPointers/prampSmallestSubstringOfAllCharacters.java), map  |                                     |
+| 1695       |    Maximum Erasure Value  |      [Two Pointers](https://github.com/OreoDu/LEETCODE/blob/master/Other/TwoPointers/lc1695MaximumErasureValue.java), map     |                                     |
+| pramp    |   Spiral Matrix    |  [Two Pointers](https://github.com/OreoDu/LEETCODE/blob/master/Other/TwoPointers/prampSpiralMatrix.java)             |                                     |
 |               |                                            |                              |                                     |
+
 
 
 
