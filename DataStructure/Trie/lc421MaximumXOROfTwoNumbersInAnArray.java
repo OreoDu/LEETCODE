@@ -24,4 +24,16 @@
  */
 
 public class lc421MaximumXOROfTwoNumbersInAnArray {
+
+    public int findMaximumXOR(int[] nums) {
+     return 1;
+
+    }
+
+    public static void main(String[] args) {
+        lc421MaximumXOROfTwoNumbersInAnArray s = new lc421MaximumXOROfTwoNumbersInAnArray();
+        int[] nums = {3,10,5,25,2,8};
+        int res = s.findMaximumXOR(nums);
+        System.out.println(res);
+    }
 }

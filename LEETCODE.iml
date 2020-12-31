@@ -25,6 +25,10 @@
       <sourceFolder url="file://$MODULE_DIR$/DataStructure/Trie" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataStructure/HashTable" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Dynamic Programing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Search/BFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Other/TwoPointers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Search/BinarySearch" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -12,6 +12,9 @@ You can find some details about algorithms and data structure [here](https://ore
 | 001            | Two Sum                    |                                             | [Easy](https://github.com/OreoDu/LEETCODE/blob/master/Data%20Structure/lc_001.py)    |
 | 350           | Intersection of Two Arrays Ⅱ | [Set](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Map/lc350IntersectionOfArrays2.java), Two Pointers | Easy    |
 | 015           | Three Sum                   |  Set, Map, [Two Pointers]()|  Medium |
+|  3           | Longest Substring Without Repeating Characters  | [HashMap](), Array, Two Pointers  |  Medium   |
+|     |                    |        |        |            
+
 
 ### Set
 | Problems Number| Name                       | Context                                     |         |
@@ -49,12 +52,17 @@ You can find some details about algorithms and data structure [here](https://ore
 | 155  | Min Stack  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc155MinStack.java)       | Easy  |
 | 716  | Max Stack  | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc716MaxStack.java)       | Easy  |
 | 739  | Daily Temperature | [Stack](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Stack/lc739DailyTemperature.java)  |       Medium          |
+|  85   |  Maximal Rectangle     |  [Monotone Stack]()      |  Hard  |            
+| 84 |  Largest Rectangle in Histogram  |  [Monotone Stack]()  |  Hard   |            
 |     |                    |        |        |            
+|     |                    |        |        |            
+
+
+
 
 ### Hash Table
 | Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-|  3           | Longest Substring Without Repeating Characters  | [HashMap](), Array  |  Medium   |
 |     |                    |        |        |            
 
 
@@ -64,7 +72,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | Problems Number    | Name                       | Context          |        |
 | ----| ------------------ | ----------------------- | ----------- |
 | 208 | Implement Trie (Prefix Tree)   |   [Trie]()      | Medium  |
-|  212  |  Word Search    |           [Trie]()                    |       Hard     |
+|  212  |  Word Search    |           [Trie](), BackTracking, DFS    |       Hard     |
 |  421  |   Maximum XOR of Two Numbers in a Array     |   [Trie]()        |   Medium        |
 |    |        |                              |                                |
 
@@ -82,7 +90,9 @@ You can find some details about algorithms and data structure [here](https://ore
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 004            | Median of two sorted arrays| Binary search in two arrays  | [Hard](https://github.com/OreoDu/LEETCODE/blob/master/Search/lc_004.py)    |
 | 029            | Divide Two Integers        |                              |                                |
-|     |                    |        |        |            
+|  pramp         | Shifted Array Search       |  [Binary search]()        |        |            
+|                |                            |                              |                   
+|                |                            |                              |                   
 
 
 ### BFS
@@ -92,6 +102,13 @@ You can find some details about algorithms and data structure [here](https://ore
 - Hierarchical traversal
 - The shortest path of a simple graph
 - Given a transformation rule, at least how many steps should be taken from the initial state to the final state?
+
+| Problems Number| Name                       | Context                                     |      |
+| ---------------| -------------------------- | ------------------------------------------- | ----------- |
+| 102     | Binary Tree Level Order Traversal |[BFS](), DFS                  | Medium   |
+|                |                            |                              |                   
+
+
 
 ### DFS
 **Conditions of Use**
@@ -123,17 +140,21 @@ You can find some details about algorithms and data structure [here](https://ore
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 357           | Count Numbers with Unique Digits |[Backtracking](https://github.com/OreoDu/LEETCODE/blob/master/BackTracking/lc357CountNumbersWithUniqueDigits.java), Dynamic program | Medium    |
+|  22    | Generate Parentheses   |      [Backtracking]() / DFS, BFS, Recursion + Memorize / Dynamic programing  |        Medium   |
+|                |                            |                              |                                     |
+|                |                            |                              |                                     |
+|                |                            |                              |                                     |
 |                |                            |                              |                                     |
 
 
 
 ## Dynamic Programing
 **Important keys for DP:**
-- definition of the different states
+- definition of the different states    
 - initial condition
-- recurrence recurrence formula
+- recurrence formula
 - final results
-- space optimize
+- space optimize (state machine)
 
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
@@ -143,6 +164,9 @@ You can find some details about algorithms and data structure [here](https://ore
 |   309 |  Best Time to Buy and Sell Stock with Cool Down |  [Dynamic Programing]( )        |          Medium         |
 |   188 | Best Time to Buy and Sell Stock IV |   [Dynamic Programing]( )    |    Hard           |
 |   714 | Best Time to Buy and Sell Stock with Transaction Fee |  [Dynamic Programing]( )        |  Medium   |
+|   120 |      Triangle             | [Dynamic Programing]( ) |        Medium      |
+|     |                            |                              |                                     |
+|     |                            |                              |                                     |
 |     |                            |                              |                                     |
 
 
@@ -151,6 +175,14 @@ You can find some details about algorithms and data structure [here](https://ore
 ## Graph
 
 ## String
+
+| Problems Number| Name                       | Context                                     |      |
+| ---------------| -------------------------- | ------------------------------------------- | ----------- |
+| 6              | ZigZag Conversion   |   [Index pattern]()    |  Medium       |
+|                |                            |                              |                                     |
+
+
+
 
 ### Trie
 **Conditions of Use**
@@ -164,7 +196,10 @@ You can find some details about algorithms and data structure [here](https://ore
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 167            | Two Sum Ⅱ                 |                              |                                     |
-|                |                            |                              |                                     |
+| 42        |  Trapping Rain Water      | [Two Pointers](), Monotone Stack, dynamic programing    |        Hard             |
+| pramp      |    Smallest Substring Of All Characters      |  [Two Pointers](), map  |                                     |
+| 1695       |    Maximum Erasure Value  |      [Two Pointers](), map     |                                     |
+|               |                                            |                              |                                     |
 
 
 

@@ -8,10 +8,10 @@
  *   1. DFS (Backtracking) (Out of time)
  *      Because we can buy and sale many times, there are so many possible results.
  *       0-th:         cash
- *                 /      　   ｜
- *      1-th:    cash          hold
- *              /    ｜        /     |
- *      2-th:  cash    hold  hold  cash
+ *                 /      　   \
+ *      1-th:     cash          hold
+ *              /      \       /   \
+ *      2-th:  cash   hold  hold  cash
  *      ...
  *      We can get every possible result through DFS.
  *      Time complexity: O(n)

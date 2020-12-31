@@ -6,10 +6,10 @@
  * - solutions:
  *   1. DFS (Backtracking) (Out of time)
  *      Because we can buy and sale many times, there are so many possible results.
- *       0-th:         cash
- *                 /      　   ｜
- *      1-th:    cash          hold
- *              /    ｜        /     |
+ *       0-th:           cash
+ *                 /      　     \
+ *      1-th:    cash            hold
+ *              /    ｜        /     \
  *      2-th:  cash    hold  hold  cash
  *      ...
  *      We can get every possible result through DFS.
@@ -24,9 +24,9 @@
  *
  *   3. Dynamic programing
  *       0-th:         cash
- *                 /      　   ｜
+ *                 /      　   \
  *      1-th:    cash          hold
- *              /    ｜        /     |
+ *              /    ｜        /    \
  *      2-th:  cash    hold  hold  cash
  *      ...
  *      Because there will be only two states when one day ends, cash or hold.

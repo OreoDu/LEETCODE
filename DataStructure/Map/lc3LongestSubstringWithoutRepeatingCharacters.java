@@ -32,7 +32,9 @@ import java.util.Hashtable;
  *   5. s = "abcdfberty"
  *
  * - Important key:
- *   Update the position of the start point is the key.
+ *   The way to determine whether a subarray meets the condition.  -- store the elements in the map see whether it has duplicated elements.
+ *   The way to get the new array.  -- store the index in the map to get the new position of the new subarray.
+ *   The way to get and update the ideal result.  -- compare the length.
  *
  * - Related problems:
  *   159, 340, 992
