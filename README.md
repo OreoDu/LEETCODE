@@ -73,7 +73,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | ----| ------------------ | ----------------------- | ----------- |
 | 208 | Implement Trie (Prefix Tree)   |   [Trie]()      | Medium  |
 |  212  |  Word Search    |           [Trie](), BackTracking, DFS    |       Hard     |
-|  421  |   Maximum XOR of Two Numbers in a Array     |   [Trie]()        |   Medium        |
+|  421  |   Maximum XOR of Two Numbers in a Array     |   [Trie](), HashSet   |   Medium        |
 |    |        |                              |                                |
 
 

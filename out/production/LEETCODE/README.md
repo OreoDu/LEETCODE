@@ -90,7 +90,9 @@ You can find some details about algorithms and data structure [here](https://ore
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 004            | Median of two sorted arrays| Binary search in two arrays  | [Hard](https://github.com/OreoDu/LEETCODE/blob/master/Search/lc_004.py)    |
 | 029            | Divide Two Integers        |                              |                                |
-|     |                    |        |        |            
+|  pramp         | Shifted Array Search       |  [Binary search]()        |        |            
+|                |                            |                              |                   
+|                |                            |                              |                   
 
 
 ### BFS
