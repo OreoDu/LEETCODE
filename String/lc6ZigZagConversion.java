@@ -21,8 +21,6 @@ import java.util.List;
  * - Test cases:
  *   1. s = "A", numRows = 1
  *   2. s = "ADFCH", numRows = 1
- *   3.
- *   4.
  *
  * - Important key:
  *   Find the pattern of the index in the string after conversion.

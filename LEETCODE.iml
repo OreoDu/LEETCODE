@@ -29,6 +29,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Search/BFS" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Other/TwoPointers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Search/BinarySearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Search/DFS" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

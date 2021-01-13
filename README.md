@@ -108,8 +108,10 @@ You can find some details about algorithms and data structure [here](https://ore
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 102     | Binary Tree Level Order Traversal |[BFS](https://github.com/OreoDu/LEETCODE/blob/master/Search/BFS/lc102BinaryTreeLevelOrderTraversal.java), DFS                  | Medium   |
+|   207    |  Course Schedule    |      [BFS](), DFS, Topological Sort             | Medium  |       
+| 1162 |  As Far from Land as Possible  |     [BFS]()        |        Medium  |
 |                |                            |                              |                   
-
+|                |                            |                              |                   
 
 
 ### DFS
@@ -118,8 +120,22 @@ You can find some details about algorithms and data structure [here](https://ore
 - Binary Tree
 - Combination problem: all the combinations that meet the conditions. (The order of the elements is irrelevant.)
 - Permutation problem: all the permutations that meet the conditions. (The order of the elements is relevant.)
+| Problems Number| Name                       | Context                                     |      |
+| ---------------| -------------------------- | ------------------------------------------- | ----------- |
+| 463  |  Island Perimeter |[DFS](), DFS                  | Easy   |
+|                |                            |                              |                   
+
+
+
 
 ## Sort
+| Problems Number| Name                       | Context                                     |      |
+| ---------------| -------------------------- | ------------------------------------------- | ----------- |
+| 969     |  Pancake Sorting|  [Pancake Sorting]()     | Medium   |
+|             |                            |                              |                   
+|                |                            |                              |                   
+|                |                            |                              |                   
+|                |                            |                              |                   
 
 
 ## Greedy Algorithm
@@ -167,9 +183,9 @@ You can find some details about algorithms and data structure [here](https://ore
 |   188 | Best Time to Buy and Sell Stock IV |   [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc188BestTimeToBuyAndSellStock4.java)    |    Hard           |
 |   714 | Best Time to Buy and Sell Stock with Transaction Fee |  [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc714BestTimeToBuyAndSellStockWithTransactionFee.java)        |  Medium   |
 |   120 |      Triangle             | [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc120Triangle.java) |        Medium      |
-|     |                            |                              |                                     |
-|     |                            |                              |                                     |
-|     |                            |                              |                                     |
+|   368 |  Largest Divisible Subset  |     [Dynamic Programing](), Union Find   |    Medium    |
+| 300  |  Longest Increasing Subsequence |  [Dynamic Programing](), Greedy and Binary search    | Medium  |
+| 152 |  Maximum Product Subarray   |  [Dynamic Programing]()  |                                     |
 
 
 
@@ -224,7 +240,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 200            | Number of Islands          |[DFS](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200dfs.java), [BFS](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200bfs.java), [UnionFind](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc200UnionFind.java)   |   Medium |
 | 547            | Friend Circles            | [DFS](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547dfs.java), [BFS](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547bfs.java), [UnionFind](https://github.com/OreoDu/LEETCODE/blob/master/Other/UnionFind/lc547UnionFind.java)   |  Medium |
-|                |          |          |        |
+|                |          |    |        |
 
 
 

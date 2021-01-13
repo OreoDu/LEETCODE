@@ -24,15 +24,14 @@
  */
 
 
- 面试总结：
- ！！！不仅仅是解题，要让面试官理解你的解题过程
- ！！！平稳心态，不要着急，仔细想解决方法
- ！！！不要懒于去想问题和表达自己的想法
- 1. 理解问题，重新阐述问题。
- 2. corner case
-    各类corner case都要说出来。（特殊状况，数值的范围...）
- 3. 思考各类解法，说明大致解法。
-    着重说明要写代码的那种解法。（简要得写下来步骤和关键词）
-    最后说明时间和空间复杂度。
- 4. 开始写代码，要写注释！！
- 5. 写完用case跑一下，自我检测bug。做好标注！！
+ /**
+  * feedback:
+  * 1. confirm the question
+  * 2. explain the thoughts --- talk while thinking and explain the solution with some keywords
+  *       (15 min)              try the solution by using case and explain it
+  *                             explain the time and space complexity!!!
+  * 3. write the code and remember to write down the comments(15 min)
+  * 4. test the case (use special cases)
+  * 5. the whole process should be in 45min!
+  * 6. clam down and avoid small syntax mistakes!!! (write code on the white board and pay attention the special case!!!)
+  */

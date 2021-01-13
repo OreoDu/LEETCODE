@@ -37,7 +37,7 @@ import java.util.*;
  *   1, 259, 16, 18
  */
 public class lc015ThreeSum {
-/* Solution 1: Out of tim， Because the sort spend two much time.
+/* Solution 1: Out of time， Because the sort spend two much time.
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums == null || nums.length < 3) return Collections.emptyList();
         Set<List<Integer>> result = new LinkedHashSet<>();
