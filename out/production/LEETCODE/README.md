@@ -87,13 +87,26 @@ You can find some details about algorithms and data structure [here](https://ore
 - When you are asked to find an algorithm that has time complexity smaller than O(n).
 - When you have to find the split position in the array that the left part meets a certain condition, and the right part does not.
 - When you have to find a max/min to meet certain condition.
+**Careful!!**
+- (lo < hi)lo should always change, or we should break at some condition.
+- search for x in an interval [a,b): lo = 0, hi = nums.length;      or   lo = 0, hi = nums.length - 1
+                                     <=: lo = mid, >: hi = mid           <=: lo = mid + 1, >: hi = mid -1
+                                     break if hi = lo + 1                break if hi < lo
+                                     res = lo                            res = hi
+                                     
+- search for x in an interval (a,b]: lo = -1, hi = nums.length - 1;      or   lo = 0, hi = nums.length - 1
+                                     <: lo = mid, >=: hi = mid           <: lo = mid + 1, >=: hi = mid -1
+                                     break if hi = lo + 1                break if hi < lo
+                                     res = hi                            res = lo
+                                     
+                               
 
 | Problems Number| Name                       | Context                                     |        |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 004            | Median of two sorted arrays| Binary search in two arrays  | [Hard](https://github.com/OreoDu/LEETCODE/blob/master/Search/lc_004.py)    |
 | 029            | Divide Two Integers        |                              |                                |
 |  pramp         | Shifted Array Search       |  [Binary search](https://github.com/OreoDu/LEETCODE/blob/master/Search/BinarySearch/prampShiftedArraySearch.java)        |        |            
-|                |                            |                              |                   
+|     911        |    Online Election   |       [Binary search]()      | Medium  |             
 |                |                            |                              |                   
 
 
@@ -122,7 +135,11 @@ You can find some details about algorithms and data structure [here](https://ore
 - Permutation problem: all the permutations that meet the conditions. (The order of the elements is relevant.)
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 463  |  Island Perimeter |[DFS](), DFS                  | Easy   |
+| 463  |  Island Perimeter | [DFS]()               | Easy   |
+|   695 | Max Area of Island   | [DFS](), BFS         |              |     
+|  pramp  |  SalesPath            |  [Recursion in the tree]()    | Medium |                  
+|   827 |  Making A Large Island     | [DFS](), UnionFind       |   Hard |                
+|                |                            |                              |                   
 |                |                            |                              |                   
 
 

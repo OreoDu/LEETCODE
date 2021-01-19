@@ -319,6 +319,7 @@ class lc1162AsFarFromLandAsPossible {
         return ans == INF ? -1 : ans;
     }
  */
+// Dynamic Programing
     public int maxDistance(int[][] grid) {
         final int INF = 1000000;
         int n = grid.length;
