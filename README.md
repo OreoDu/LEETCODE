@@ -89,16 +89,25 @@ You can find some details about algorithms and data structure [here](https://ore
 - When you have to find a max/min to meet certain condition.
 **Careful!!**
 - (lo < hi)lo should always change, or we should break at some condition.
-- search for x in an interval [a,b): lo = 0, hi = nums.length;      or   lo = 0, hi = nums.length - 1
-                                     <=: lo = mid, >: hi = mid           <=: lo = mid + 1, >: hi = mid -1
-                                     break if hi = lo + 1                break if hi < lo
-                                     res = lo                            res = hi
+- search for x in an interval [a,b): lo = 0, hi = nums.length;      
+                                     <=: lo = mid, >: hi = mid
+                                     break if hi = lo + 1               
+                                     res = lo                            
+                                     or   
+                                     lo = 0, hi = nums.length - 1
+                                     <=: lo = mid + 1, >: hi = mid -1
+                                     break if hi < lo
+                                     res = hi
                                      
-- search for x in an interval (a,b]: lo = -1, hi = nums.length - 1;      or   lo = 0, hi = nums.length - 1
-                                     <: lo = mid, >=: hi = mid           <: lo = mid + 1, >=: hi = mid -1
-                                     break if hi = lo + 1                break if hi < lo
-                                     res = hi                            res = lo
-                                     
+- search for x in an interval (a,b]: lo = -1, hi = nums.length - 1;      
+                                     <: lo = mid, >=: hi = mid           
+                                     break if hi = lo + 1                
+                                     res = hi                            
+                                     or   
+                                     lo = 0, hi = nums.length - 1
+                                     <: lo = mid + 1, >=: hi = mid -1
+                                     break if hi < lo
+                                     res = lo
                                
 
 | Problems Number| Name                       | Context                                     |        |
@@ -133,14 +142,14 @@ You can find some details about algorithms and data structure [here](https://ore
 - Binary Tree
 - Combination problem: all the combinations that meet the conditions. (The order of the elements is irrelevant.)
 - Permutation problem: all the permutations that meet the conditions. (The order of the elements is relevant.)
-| Problems Number| Name                       | Context                                     |      |
+| Problems Number| Name                       | Context                                     |             |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 463  |  Island Perimeter | [DFS]()               | Easy   |
-|   695 | Max Area of Island   | [DFS](), BFS         |              |     
-|  pramp  |  SalesPath            |  [Recursion in the tree]()    | Medium |                  
-|   827 |  Making A Large Island     | [DFS](), UnionFind       |   Hard |                
-|                |                            |                              |                   
-|                |                            |                              |                   
+| 463            |  Island Perimeter          | [DFS]()                                     | Easy        |
+|   695          | Max Area of Island         | [DFS](), BFS                                |             |
+|  pramp         |  SalesPath                 |  [Recursion in the tree]()                  | Medium      |  
+|   827          |  Making A Large Island     | [DFS](), UnionFind                          |   Hard      |    
+|                |                            |                              |   |                
+|                |                            |                              |   |               
 
 
 
@@ -148,11 +157,7 @@ You can find some details about algorithms and data structure [here](https://ore
 ## Sort
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
-| 969     |  Pancake Sorting|  [Pancake Sorting]()     | Medium   |
-|             |                            |                              |                   
-|                |                            |                              |                   
-|                |                            |                              |                   
-|                |                            |                              |                   
+| 969     |  Pancake Sorting|  [Pancake Sorting]()     | Medium   |               
 
 
 ## Greedy Algorithm
@@ -163,7 +168,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | Problems Number| Name                       | Context                                     |      |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 23           | Merge k Sorted Lists |[Divide and Conquer](https://github.com/OreoDu/LEETCODE/blob/master/Divide%20and%20Conquer/lc23MergeKSortedLists.java), Priority Queue | Hard    |
-|                |                            |                              |                   
+|                |                            |                              |         |          
 
 
 ## Recursion
