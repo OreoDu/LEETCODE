@@ -20,7 +20,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | Problems Number| Name                       | Context                                     |         |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 349            | Intersection of Two Arrays | [Set](https://github.com/OreoDu/LEETCODE/blob/master/DataStructure/Set/lc349IntersectionOfArrays1.java), Two Pointers, Binary Search | Easy    |
-|     |                    |        |        |            
+|           771  | Jewels and Stones          |  [Set]()       |   Easy     |           
 
 
 ### Heap
@@ -145,7 +145,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | Problems Number| Name                       | Context                                     |             |
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 463            |  Island Perimeter          | [DFS]()                                     | Easy        |
-|   695          | Max Area of Island         | [DFS](), BFS                                |             |
+|   695          | Max Area of Island         | [DFS](), BFS                                | Medium      |
 |  pramp         |  SalesPath                 |  [Recursion in the tree]()                  | Medium      |  
 |   827          |  Making A Large Island     | [DFS](), UnionFind                          |   Hard      |    
 |                |                            |                              |   |                
@@ -181,8 +181,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | ---------------| -------------------------- | ------------------------------------------- | ----------- |
 | 357           | Count Numbers with Unique Digits |[Backtracking](https://github.com/OreoDu/LEETCODE/blob/master/BackTracking/lc357CountNumbersWithUniqueDigits.java), Dynamic program | Medium    |
 |  22    | Generate Parentheses   |      [Backtracking](https://github.com/OreoDu/LEETCODE/blob/master/BackTracking/lc22GenerateParentheses.java) / DFS, BFS, Recursion + Memorize / Dynamic programing  |        Medium   |
-|                |                            |                              |                                     |
-|                |                            |                              |                                     |
+| * 46  |    Permutations             |     [Backtracking]()                        |   Medium                 |
 |                |                            |                              |                                     |
 |                |                            |                              |                                     |
 
@@ -206,8 +205,8 @@ You can find some details about algorithms and data structure [here](https://ore
 |   714 | Best Time to Buy and Sell Stock with Transaction Fee |  [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc714BestTimeToBuyAndSellStockWithTransactionFee.java)        |  Medium   |
 |   120 |      Triangle             | [Dynamic Programing](https://github.com/OreoDu/LEETCODE/blob/master/Dynamic%20Programing/lc120Triangle.java) |        Medium      |
 |   368 |  Largest Divisible Subset  |     [Dynamic Programing](), Union Find   |    Medium    |
-| 300  |  Longest Increasing Subsequence |  [Dynamic Programing](), Greedy and Binary search    | Medium  |
-| 152 |  Maximum Product Subarray   |  [Dynamic Programing]()  |                                     |
+|   300 |  Longest Increasing Subsequence |  [Dynamic Programing](), Greedy and Binary search    | Medium  |
+|   152 |  Maximum Product Subarray   |  [Dynamic Programing]()  |                                     |
 
 
 
@@ -240,7 +239,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | pramp      |    Smallest Substring Of All Characters      |  [Two Pointers](https://github.com/OreoDu/LEETCODE/blob/master/Other/TwoPointers/prampSmallestSubstringOfAllCharacters.java), map  |                                     |
 | 1695       |    Maximum Erasure Value  |      [Two Pointers](https://github.com/OreoDu/LEETCODE/blob/master/Other/TwoPointers/lc1695MaximumErasureValue.java), map     |                                     |
 | pramp    |   Spiral Matrix    |  [Two Pointers](https://github.com/OreoDu/LEETCODE/blob/master/Other/TwoPointers/prampSpiralMatrix.java)             |                                     |
-|               |                                            |                              |                                     |
+|  283  |                                            |                              |                                     |
 
 
 
@@ -273,7 +272,7 @@ You can find some details about algorithms and data structure [here](https://ore
 | 185-1          |                    |                              |                                     |
 | 185-2          |                    |                              |                                     |
 | 185-3          |                   |                              |                                     |
-| 185-4             |                    |                              |                                     |
+|   185-4             |                    |                              |                                     |
 |   186-1(5392)     |   Maximum Score After Splitting a String   |                 | [Easy](https://github.com/OreoDu/LEETCODE/blob/master/WeeklyContest/186-1.py)   |
 |   186-2(5393)     |   Maximum Points You Can Obtain from Cards     |             | [Medium](https://github.com/OreoDu/LEETCODE/blob/master/WeeklyContest/186-2.py) |
 |   186-3(5394)     |   Diagonal Traverse II        |                              |                                     |
